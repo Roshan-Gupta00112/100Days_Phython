@@ -1,0 +1,32 @@
+There are 5 data types. Which are following:-
+
+1. Numeric:- Integer, Float, Complex Number
+
+2. Boolean:- It has 2 values, Ture and False
+
+3. Dictionary:- Dictionary is a collection of key-value pairs like HashMap in java
+
+4. Set:-
+        a. It is a collection of non-repetitive element.
+        b. It is an unordered.
+        c. sets are un-indexed which means we cannot access elements by index
+        d. We cannot change an item in set
+        e. sets cannot contain duplicates
+        f. empty set defined like:- var = set()
+        g. set store every item inside curly brackets. e.g var = {1, "Ros", True}
+
+5. Sequence:- String, Tuple, List
+
+        b. Tuple:-
+                 i) Set stores elements inside round brackets, ()
+                 ii) empty tuple, e.g var = ()  ,aware of set definition for empty set
+                 iii) single element tuple, e.g var = (1,). Note:- For single element Tuple we must have to use comma
+                     after the element otherwise it is considered as variable not Tuple
+
+        c. List:-
+               i) List stores element inside square brackets, []
+
+
+NOTE:-
+      1. To know the data type of a variable in Python we have to use, type(variableName)
+      2. To change the data type of a variable in Python we need to use, desiredDataType(variable)
