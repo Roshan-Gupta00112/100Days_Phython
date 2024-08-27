@@ -6,7 +6,7 @@ print("You're at a cross road. Where you want to go?")
 step1 = input('Type "Left" or "Right"\n')
 
 if step1.lower() == "left":
-    print("River ahead. You want to swim or wait for boat?")
+    print("You came across river. In the middle of the river there is an island. You want to swim or wait for boat?")
 
     step2 = input("Type Swim or Wait\n")
 
