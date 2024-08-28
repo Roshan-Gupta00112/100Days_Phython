@@ -1,0 +1,17 @@
+import random
+
+----To get any random integer value integer value
+random.randint(a, b)  -- > This will give an integer value between 'a' and 'b' both inclusive
+
+e.g
+random_int = random.randint(0, 1)
+print(random_int)
+
+
+
+----To get any floating random values
+random.random()  --> This will give any floating values between '0' and '1' where '0' is inclusive but '1' not
+
+e.g
+random_float_number = random.random()
+print(random_float_number)
