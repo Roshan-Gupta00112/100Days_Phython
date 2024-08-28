@@ -1,4 +1,8 @@
 import random
 
+random_head_tail = random.randint(0, 1)
 
-random.randint(a, b)  -- > This will give an integer value between 'a' and 'b' both inclusivge
+if random_head_tail == 0:
+    print("HEAD")
+else:
+    print("TAIL")
