@@ -1,0 +1,33 @@
+List:-
+   i) A list is a data structure in a python that is mutable or changeable.
+   ii) Elements are in ordered sequence inside list.
+   iii) Each element or a value that is inside of a list is called an item.
+   iv) Like Strings are defined as characters between quotes, Lists are defined by having values between
+        square brackets []
+   v) List stores element inside square brackets, []
+
+
+Few Methods of List are:-
+    1. append:- To add an itm inside list. e.g list_name.append(any_variable)
+    2. extend:- To add a list of items in a existing list at once. e.g list_name.extend(list2_name) or
+                    list_name.extend([1, 2, 'a', 'roshan is a billionaire'])
+    3. insert:- To insert an item at given index. e.g list_name.insert(0, 0.0), It insert 0.0 at index 0 in list_name
+                    and hence the previous items from that index shifted by 1 position
+    4. remove:- remove the first occurrence of that item.
+                    e.g list_name.remove(x), This will remove the first occurrence of item x from list_name
+    5. pop:- Remove the item at the mentioned index.
+                    e.g list_name.pop(2), This will remove the item present at index 2 from list_name list.
+                        If no index is specified, a.pop() removes and returns the last item in the list.
+    6. clear:- Remove all items from the list
+                    e.g list_name.clear(), This will remove the all items from the list_name and hence list_name
+                         list becomes empty
+    7.list.index(x[, start[, end]])
+                    Return zero-based index in the list of the first item whose value is equal to x.
+    8. list.count(x)
+                    Return the number of times x appears in the list.
+    9. list.sort(*, key=None, reverse=False)
+                    Sort the items of the list in place.
+    10. list.reverse()
+                     Reverse the elements of the list in place.
+    11. list.copy()
+                     Return a shallow copy of the list. Equivalent to a[:].
