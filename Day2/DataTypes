@@ -4,10 +4,13 @@ There are 5 data types. Which are following:-
 
 2. Boolean:- It has 2 values, Ture and False
 
-3. Dictionary:- Dictionary is a collection of key-value pairs like HashMap in java
+3. Dictionary:-
+        i) Dictionary is a collection of key-value pairs like HashMap in Java
+        ii) Dictionary is a mutable data structures that allow to store of key-value pairs.
+        iii) An empty dictionary can be either created using {} or dict()
 
 4. Set:-
-        a. It is a collection of non-repetitive element.
+        a. It is a collection of non-repetitive elements.
         b. It is an unordered.
         c. sets are un-indexed which means we cannot access elements by index
         d. We cannot change an item in set
@@ -16,17 +19,44 @@ There are 5 data types. Which are following:-
         g. set store every item inside curly brackets. e.g var = {1, "Ros", True}
 
 5. Sequence:- String, Tuple, List
+        a. String:-
+                 i) A String is a sequence of characters enclosed in either single quotes('') or double quotes("")
+                 ii) Python Strings are immutable which means they cannot be changed once they are created
 
         b. Tuple:-
+                 i) A tuple is a data structure that stores a collection of ordered items that cannot be changed after
+                    creation.
+                 ii) It is Immutable
                  i) Set stores elements inside round brackets, ()
-                 ii) empty tuple, e.g var = ()  ,aware of set definition for empty set
-                 iii) single element tuple, e.g var = (1,). Note:- For single element Tuple we must have to use comma
-                     after the element otherwise it is considered as variable not Tuple
+                 ii) empty tuple, e.g. var = (), aware of set definition for empty set
+                 iii) single element tuple, e.g. var = (1,). Note:- For an element Tuple we must use a comma
+                     after the element otherwise it is considered a variable, not a Tuple
 
         c. List:-
-               i) List stores element inside square brackets, []
+               i) A list is a data structure in a python that is mutable or changeable.
+               ii) Elements are in ordered sequence inside the list.
+               iii) Each element or value inside a list is called an item.
+               iv) Like Strings are defined as characters between quotes, Lists are defined by having values between
+                    square brackets []
 
 
 NOTE:-
       1. To know the data type of a variable in Python we have to use, type(variableName)
       2. To change the data type of a variable in Python we need to use, desiredDataType(variable)
+
+
+The data structures in Python are:-
+   1. List
+   2. Set
+   3. Tuples
+   4. Dictionary
+
+
+Mathematical Operation Sequence in Python
+PEMDAS:-
+    1. P = Parenthesis
+    2. E = Exponent:- double asterisk(**) is used from exponentiation
+    3. M = Multiplication
+    4. D = Division
+    5. A = Addition
+    6. S = Subtraction
