@@ -37,6 +37,11 @@ print(type(f))
 g = {}
 print(type(g))
 
+# or we can also define empty dictionary like
+
+gg = dict()
+print(f"Data type of gg is: {type(gg)}")
+
 h = {
     "ARDM": ["Ahmed", "Horit", "Krishna", "Veera", "Roshan"]
 }
@@ -85,7 +90,3 @@ print(type(p))
 
 q = [1, "Billionaire"]
 print(type(q))
-
-
-
-
