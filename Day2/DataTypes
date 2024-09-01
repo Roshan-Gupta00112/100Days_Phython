@@ -13,9 +13,9 @@ There are 5 data types. Which are following:-
         a. It is a collection of non-repetitive elements.
         b. It is an unordered.
         c. sets are un-indexed which means we cannot access elements by index
-        d. We cannot change an item in set
+        d. We cannot change an item in the set but it is mutable which means we can add or remove an item from it
         e. sets cannot contain duplicates
-        f. empty set defined like:- var = set()
+        f. empty set is defined like:- var = set()
         g. set store every item inside curly brackets. e.g var = {1, "Ros", True}
 
 5. Sequence:- String, Tuple, List
