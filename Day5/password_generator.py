@@ -46,3 +46,12 @@ random.shuffle(my_password_list)
 my_updated_password2 = ''.join(my_password_list)
 print(f"My Shuffled Password created using list is: {my_updated_password2}")
 
+my_updated_password2_2 = ''
+for char in my_password_list:
+    my_updated_password2_2 += char
+
+
+if my_updated_password2 != my_updated_password2_2:
+    print("Oh No! Sorry Something is wrong in calculation!")
+else:
+    print("Shuffled password generated using both approach Matches")
