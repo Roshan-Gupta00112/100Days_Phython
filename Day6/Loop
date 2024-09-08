@@ -1,0 +1,14 @@
+For Loop Uses:-
+When there is a need of iteration over elements that are in sequence like lists, tuples, strings or dictionaries.
+Use for loops when a known number or a finite number of iteration is required.
+Another situation when you want that each element of a sequence should pass through iteration one by one.
+for loops can also be used when a task requires a sequential access of elements of a sequence.
+
+
+
+
+While Loop Uses:-
+When there is a need to repeat execution of a block of code until a specified condition becomes False.
+Use while loops when the number of iteration is not determined.
+while loops are can be used when there is a need to repeat execution based on a condition.
+When dynamic adaptation is required based upon condition that may change.
