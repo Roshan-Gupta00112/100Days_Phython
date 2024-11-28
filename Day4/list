@@ -15,18 +15,20 @@ Few Methods of List are:-
                     and hence the previous items from that index shifted by 1 position
     4. remove:- remove the first occurrence of that item.
                     e.g list_name.remove(x), This will remove the first occurrence of item x from list_name
-    5. pop:- Remove the item at the mentioned index.
+    5. pop:- Remove and Return the item at the mentioned index.
                     e.g list_name.pop(2), This will remove the item present at index 2 from list_name list.
                         If no index is specified, a.pop() removes and returns the last item in the list.
     6. clear:- Remove all items from the list
                     e.g list_name.clear(), This will remove the all items from the list_name and hence list_name
                          list becomes empty
-    7.list.index(x[, start[, end]])
-                    Return zero-based index in the list of the first item whose value is equal to x.
+    7.list.index(x_item, start_index, end_index)
+                    Return zero-based index in the list of the first item whose value is equal to x between the
+                    start_index and end_index where start_index is inclusive while end_index is exclusive.
     8. list.count(x)
-                    Return the number of times x appears in the list.
+                    Return the number of times item(x in this case) appears in the list.
     9. list.sort(*, key=None, reverse=False)
                     Sort the items of the list in place.
+       list.sort(reverse=True) -- This will sort the list in Descending Order
     10. list.reverse()
                      Reverse the elements of the list in place.
     11. list.copy()
