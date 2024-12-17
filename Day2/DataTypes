@@ -7,7 +7,8 @@ There are 5 data types. Which are following:-
 3. Dictionary:-
         i) Dictionary is a collection of key-value pairs like HashMap in Java
         ii) Dictionary is a mutable data structures that allow to store of key-value pairs.
-        iii) An empty dictionary can be either created using {} or dict()
+        iii) Python dictionaries are ordered in Python 3.7 and later
+        iv) An empty dictionary can be either created using {} or dict()
 
 4. Set:-
         a. It is a collection of non-repetitive elements.
