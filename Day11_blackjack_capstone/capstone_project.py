@@ -27,3 +27,5 @@ def blackjack_game():
         while user_next_card_choice == 'y':
             user_curr_card = random.choice(cards)
             user_cards_collection
+
+blackjack_game()
